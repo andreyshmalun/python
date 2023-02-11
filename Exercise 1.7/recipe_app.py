@@ -342,7 +342,7 @@ def main_menu():
         elif choice.lower() == 'quit':          # User can exit program by typing 'quit' on main menu
             session.close()
             engine.dispose()
-            print('\nGoodbye!!')
+            print('\nBYE!')
         else:
             print(
                 "Incorrect input, Please enter one of the numbers listed or 'quit' to exit the program")
